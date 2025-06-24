@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harsh Khetan | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="animated-bg"></div>
+  <div class="particles"></div>
+  <div class="scroll-indicator"></div>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">Harsh Khetan</div>
+      <ul class="nav-links">
+        <button class="nav-close" id="navCloseBtn" aria-label="Close navigation" style="display:none;">
+          <span></span><span></span>
+        </button>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="Resume1.pdf" class="resume-btn" id="downloadResume" download>Download Resume</a>
+      <button class="hamburger" id="hamburgerMenu" aria-label="Open navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="section home-section visible">
+      <div class="home-content">
+        <h1>Hi, I'm <span class="accent">Harsh Khetan</span></h1>
+        <p>CSE student specializing in AI/ML with a strong interest in Python backend development. Skilled in Django, Flask, and SQL, with growing expertise in Java. Focused on building scalable systems using emerging AI technologies.</p>
+        <div class="social-links">
+          <a href="mailto:harshkhetan20@gmail.com" target="_blank" title="Email">
+            <img src="https://img.icons8.com/ios-filled/30/ffffff/new-post.png" alt="Email">
+          </a>
+          <a href="https://www.linkedin.com/in/harshkhetan20/" target="_blank" title="LinkedIn">
+            <img src="https://img.icons8.com/ios-filled/30/ffffff/linkedin.png" alt="LinkedIn">
+          </a>
+          <a href="https://github.com/HarshKhetan20" target="_blank" title="GitHub">
+            <img src="https://img.icons8.com/ios-filled/30/ffffff/github.png" alt="GitHub">
+          </a>
+          <a href="https://www.instagram.com/harshkhetann/" target="_blank" title="Instagram">
+            <img src="https://img.icons8.com/ios-filled/30/ffffff/instagram-new.png" alt="Instagram">
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about-section">
+      <div class="card">
+        <h2>About Me</h2>
+        <p>I'm a Computer Science and Engineering student at SRM Institute of Science & Technology, passionate about AI/ML and backend development. I enjoy building real-time, scalable systems and learning new technologies. I thrive in collaborative environments and love contributing to open source projects.</p>
+        
+        <div class="skills">
+          <h3 style="font-size: 2rem; margin: 2rem 0 1rem 0; text-align: center;">Skills</h3>
+          <div class="skills-cube-container">
+            <div id="skillsCube" class="skills-cube">
+              <div class="face face-front">Python</div>
+              <div class="face face-back">Java</div>
+              <div class="face face-right">C++</div>
+              <div class="face face-left">C#</div>
+              <div class="face face-top">OpenCV</div>
+              <div class="face face-bottom">JavaScript</div>
+            </div>
+          </div>
+          <ul style="list-style: none; padding: 0;">
+            <li style="margin: 1rem 0; padding: 1rem; background: rgba(255,255,255,0.05); border-radius: 10px; border-left: 4px solid #00f2fe;"><strong>Libraries/Frameworks:</strong> Pandas, NumPy, Matplotlib, Django, JDBC</li>
+            <li style="margin: 1rem 0; padding: 1rem; background: rgba(255,255,255,0.05); border-radius: 10px; border-left: 4px solid #00f2fe;"><strong>Tools/Platforms:</strong> Git, VS Code</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section education-section">
+      <h2>Education</h2>
+      <div class="card" style="margin-bottom: 2rem;">
+        <h3 style="color: #00f2fe; font-size: 1.8rem;">B. Tech CSE-AI&ML</h3>
+        <p style="font-size: 1.2rem; margin: 1rem 0;">SRM Institute of Science & Technology, Kattankulathur (Main Campus), Chennai, India <span style="float: right; color: #00f2fe;">2023-2027</span></p>
+        <ul>
+          <li><strong>Current CGPA:</strong> 9.17</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3 style="color: #00f2fe; font-size: 1.8rem;">High School Diploma</h3>
+        <p style="font-size: 1.2rem; margin: 1rem 0;">Allenhouse Public School, Kanpur, India <span style="float: right; color: #00f2fe;">2017-2023</span></p>
+        <ul>
+          <li>10th Percentage: 94.3%</li>
+          <li>12th Percentage: 83%</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="experience" class="section experience-section">
+      <h2>Experience</h2>
+      <div class="card" style="margin-bottom: 2rem;">
+        <h3 style="color: #00f2fe; font-size: 1.8rem;">Volunteer</h3>
+        <p style="font-size: 1.2rem; margin: 1rem 0;">IEEE GRSS SRM Student Chapter <span style="float: right; color: #00f2fe;">Nov 2024 – Nov 2024, Chennai, India</span></p>
+        <ul>
+          <li>Organized logistics and scheduling for a campus hackathon, ensuring smooth event flow.</li>
+          <li>Handled participant registration and queries, improving team–mentor communication.</li>
+          <li>Coordinated with mentors and judges to ensure timely evaluations and feedback.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3 style="color: #00f2fe; font-size: 1.8rem;">SDE Intern</h3>
+        <p style="font-size: 1.2rem; margin: 1rem 0;">EA Technologies USA Inc. <span style="float: right; color: #00f2fe;">May 2025 – July 2025, Noida, India</span></p>
+        <ul>
+          <li>Collaborated with the development team to design, build, and test scalable software solutions.</li>
+          <li>Contributed to backend and frontend tasks, writing clean, efficient, and maintainable code.</li>
+          <li>Gained hands-on experience with real-time client projects, agile workflows, and modern dev tools.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects-section">
+      <h2>Projects & Open Source</h2>
+      <div class="project-item">
+        <h3 style="color: #00f2fe; font-size: 1.6rem; margin-bottom: 1rem;">Zero-Shot Object Detection</h3>
+        <p>Built a real-time object detection system using Python, OpenCV, PyTorch, and OWL-ViT from Hugging Face Transformers. Detects custom objects in live video without retraining, overlays bounding boxes, and logs detection results with confidence scores. <a href="https://github.com/HarshKhetan20/Zero_Shot_Detection" target="_blank" style="color: #00f2fe;">(Link)</a></p>
+      </div>
+      <div class="project-item">
+        <h3 style="color: #00f2fe; font-size: 1.6rem; margin-bottom: 1rem;">Automatic Number Plate Recognition (ANPR)</h3>
+        <p>Developed a license plate recognition system using Python, OpenCV, and Tesseract OCR to detect and extract plate numbers from video frames. Integrated a graphical file selection interface and real-time text overlay for improved user interaction. <a href="https://github.com/HarshKhetan20/Automatic-License-Plate-Recognition-ANPR-System" target="_blank" style="color: #00f2fe;">(Link)</a></p>
+      </div>
+      <div class="project-item">
+        <h3 style="color: #00f2fe; font-size: 1.6rem; margin-bottom: 1rem;">Hand Gesture Fruit Ninja</h3>
+        <p>Created a real-time Fruit Ninja simulation using Python, OpenCV, PyAutoGUI, and MediaPipe, enabling gesture-based slicing and clicks via webcam. Uses landmark detection and motion tracking for responsive browser interaction. <a href="https://github.com/HarshKhetan20/Hand_Gesture-Fruit_Ninja" target="_blank" style="color: #00f2fe;">(Link)</a></p>
+      </div>
+    </section>
+
+    <section id="certificates" class="section certificates-section">
+      <h2>Certificates</h2>
+      <ul class="certificates-list" style="list-style: none; padding: 0; max-width: 600px; margin: 0 auto;">
+        <li style="margin: 1rem 0; padding: 1rem; background: rgba(255,255,255,0.05); border-radius: 10px; border-left: 4px solid #00f2fe;">
+          <strong>Programming in Java</strong> &mdash; <a href="https://drive.google.com/file/d/1YspBWoNJcmx7A23NhdOT2r3VtBePThaB/view?usp=drive_link" target="_blank" style="color: #00f2fe;">NPTEL</a>
+        </li>
+        <li style="margin: 1rem 0; padding: 1rem; background: rgba(255,255,255,0.05); border-radius: 10px; border-left: 4px solid #00f2fe;">
+          <strong>Total Python</strong> &mdash; <a href="https://drive.google.com/file/d/15tHBCU9ShITvYneahrYReX_iyYZd8KOO/view?usp=drive_link" target="_blank" style="color: #00f2fe;">Udemy</a>
+        </li>
+        <li style="margin: 1rem 0; padding: 1rem; background: rgba(255,255,255,0.05); border-radius: 10px; border-left: 4px solid #00f2fe;">
+          <strong>C++ Programming</strong> &mdash; <a href="https://drive.google.com/file/d/14tI2Z1KNSYbiuSkR9-XhilzVwZ7qrrt3/view?usp=drive_link" target="_blank" style="color: #00f2fe;">Udemy</a>
+        </li>
+        <li style="margin: 1rem 0; padding: 1rem; background: rgba(255,255,255,0.05); border-radius: 10px; border-left: 4px solid #00f2fe;">
+          <strong>Python Essentials 1</strong> &mdash; <a href="https://drive.google.com/file/d/1e4rFYfEurjZXvU9fD2mLhKCctBV7qK7O/view?usp=drive_link/" target="_blank" style="color: #00f2fe;">Cisco Netacad</a>
+        </li>
+        <li style="margin: 1rem 0; padding: 1rem; background: rgba(255,255,255,0.05); border-radius: 10px; border-left: 4px solid #00f2fe;">
+          <strong>Intro to Cybersecurity</strong> &mdash; <a href=https://drive.google.com/file/d/1R8QBiAa8lrz40OBCjkTmka1A-SMWlsI0/view?usp=drive_link" target="_blank" style="color: #00f2fe;">Cisco Netacad</a>
+        </li>
+        <li style="margin: 1rem 0; padding: 1rem; background: rgba(255,255,255,0.05); border-radius: 10px; border-left: 4px solid #00f2fe;">
+          <strong>Generative AI: Prompt Engineering Basics</strong> &mdash; <a href="https://drive.google.com/file/d/15-ArHlHzVaN5XBpVnKD_IyHoy7s-n_8f/view?usp=drive_link" target="_blank" style="color: #00f2fe;">Coursera</a>
+        </li>
+        <li style="margin: 1rem 0; padding: 1rem; background: rgba(255,255,255,0.05); border-radius: 10px; border-left: 4px solid #00f2fe;">
+          <strong>DBMS</strong> &mdash; <a href="https://drive.google.com/file/d/1B5SLJPG3WTj8dU9lty3jkoXPhYoyAhlh/view?usp=drive_link" target="_blank" style="color: #00f2fe;">Scaler</a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="card">
+        <h2>Contact</h2>
+        <div class="contact-links" style="display: flex; flex-direction: column; gap: 1.5rem; align-items: center;">
+          <a href="mailto:harshkhetan20@gmail.com" target="_blank" style="display: flex; align-items: center; gap: 1rem; color: #00f2fe; text-decoration: none; font-size: 1.2rem; transition: all 0.3s ease;">
+            <img src="https://img.icons8.com/ios-filled/30/00f2fe/new-post.png" alt="Email"> harshkhetan20@gmail.com
+          </a>
+          <a href="https://www.linkedin.com/in/harshkhetan20/" target="_blank" style="display: flex; align-items: center; gap: 1rem; color: #00f2fe; text-decoration: none; font-size: 1.2rem; transition: all 0.3s ease;">
+            <img src="https://img.icons8.com/ios-filled/30/00f2fe/linkedin.png" alt="LinkedIn"> linkedin.com/in/harshkhetan20
+          </a>
+          <a href="https://github.com/HarshKhetan20" target="_blank" style="display: flex; align-items: center; gap: 1rem; color: #00f2fe; text-decoration: none; font-size: 1.2rem; transition: all 0.3s ease;">
+            <img src="https://img.icons8.com/ios-filled/30/00f2fe/github.png" alt="GitHub"> github.com/HarshKhetan20
+          </a>
+          <a href="https://www.instagram.com/harshkhetann/" target="_blank" style="display: flex; align-items: center; gap: 1rem; color: #00f2fe; text-decoration: none; font-size: 1.2rem; transition: all 0.3s ease;">
+            <img src="https://img.icons8.com/ios-filled/30/00f2fe/instagram-new.png" alt="Instagram"> instagram.com/harshkhetann
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer style="text-align: center; padding: 2rem; background: rgba(10, 10, 10, 0.9); margin-top: 4rem;">
+    <p style="color: #b8b8b8;">&copy; Made with ❤️ by Harsh Khetan.</p>
+  </footer>
+
+  <!-- Floating Action Button -->
+  <div class="floating-elements">
+    <button class="floating-btn" id="scrollToTop" title="Back to Top">
+      <svg width="24" height="24" fill="#0a0a0a" viewBox="0 0 24 24">
+        <path d="M12 2l8 8h-5v10h-6V10H4l8-8z"/>
+      </svg>
+    </button>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
